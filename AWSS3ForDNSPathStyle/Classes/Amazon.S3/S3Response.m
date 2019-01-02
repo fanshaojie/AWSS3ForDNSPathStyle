@@ -14,6 +14,11 @@
  */
 
 #import "S3Response.h"
+#ifdef AWS_MULTI_FRAMEWORK
+#import <AWSRuntime/AmazonServiceResponse.h>
+#else
+#import "AmazonServiceResponse.h"
+#endif
 #import "S3GetObjectResponse.h"
 #import "AmazonLogger.h"
 #import "S3ErrorResponseHandler.h"

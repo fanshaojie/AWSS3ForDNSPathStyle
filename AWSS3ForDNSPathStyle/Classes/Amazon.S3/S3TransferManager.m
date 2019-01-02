@@ -14,7 +14,11 @@
  */
 
 #import "S3TransferManager.h"
-
+#ifdef AWS_MULTI_FRAMEWORK
+#import <AWSRuntime/AmazonServiceRequest.h>
+#else
+#import "AmazonServiceRequest.h"
+#endif
 #import "S3PutObjectOperation_Internal.h"
 #import "S3MultipartUploadOperation_Internal.h"
 #import "S3AbortMultipartUploadsOperation_Internal.h"

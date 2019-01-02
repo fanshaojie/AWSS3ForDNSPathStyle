@@ -14,6 +14,11 @@
  */
 
 #import "S3PutObjectRequest.h"
+#ifdef AWS_MULTI_FRAMEWORK
+#import <AWSRuntime/AmazonLogger.h>
+#else
+#import "AmazonLogger.h"
+#endif
 #import "AmazonMD5Util.h"
 
 @implementation S3PutObjectRequest

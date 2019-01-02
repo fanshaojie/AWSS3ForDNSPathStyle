@@ -14,7 +14,11 @@
  */
 
 #import "S3BucketNameUtilities.h"
-
+#ifdef AWS_MULTI_FRAMEWORK
+#import <AWSRuntime/AmazonClientException.h>
+#else
+#import "AmazonClientException.h"
+#endif
 @implementation S3BucketNameUtilities
 
 +(AmazonClientException *)validateBucketName:(NSString *)theBucketName

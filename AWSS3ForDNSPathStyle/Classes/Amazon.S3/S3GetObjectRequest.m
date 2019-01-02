@@ -14,7 +14,11 @@
  */
 
 #import "S3GetObjectRequest.h"
-
+#ifdef AWS_MULTI_FRAMEWORK
+#import <AWSRuntime/AmazonClientException.h>
+#else
+#import "AmazonClientException.h"
+#endif
 @implementation S3GetObjectRequest
 
 @synthesize ifModifiedSince;

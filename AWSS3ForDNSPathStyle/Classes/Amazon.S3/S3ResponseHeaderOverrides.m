@@ -14,7 +14,11 @@
  */
 
 #import "S3ResponseHeaderOverrides.h"
-
+#ifdef AWS_MULTI_FRAMEWORK
+#import <AWSRuntime/AmazonSDKUtil.h>
+#else
+#import "AmazonSDKUtil.h"
+#endif
 // Category for accumulating Query parameters
 @interface NSMutableString (S3ResponseHeaderOverrides)
 
