@@ -1,15 +1,22 @@
 PODS:
-  - AWSS3ForDNSPathStyle (0.1.0)
+  - AWSRuntime (0.0.2)
+  - AWSS3ForDNSPathStyle (0.1.0):
+    - AWSRuntime
 
 DEPENDENCIES:
   - AWSS3ForDNSPathStyle (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AWSRuntime
 
 EXTERNAL SOURCES:
   AWSS3ForDNSPathStyle:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AWSS3ForDNSPathStyle: e32b65347bdab999fa62fcfd1f1ecbc49ed06223
+  AWSRuntime: 11d8a49995089b3c7edce4bea68275e9a3731fc6
+  AWSS3ForDNSPathStyle: 06da241f74a4af226982ff4e81fb38ccd90dd3b1
 
 PODFILE CHECKSUM: 0bb235360ba7da4d529710d64cc730a5c8afcc85
 
