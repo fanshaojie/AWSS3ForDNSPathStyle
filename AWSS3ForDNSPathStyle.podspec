@@ -12,8 +12,8 @@ DNS Path Style of AWSS3.
   s.source           = { :git => 'https://github.com/fanshaojie/AWSS3ForDNSPathStyle.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'AWSS3ForDNSPathStyle/Classes/**/*'
-  s.public_header_files = 'AWSS3ForDNSPathStyle/Classes/**/*.h'
+  s.source_files = 'AWSS3ForDNSPathStyle/Classes/**/**/*'
+  s.public_header_files = 'AWSS3ForDNSPathStyle/Classes/**/**/*.h'
   s.requires_arc = false
   s.frameworks = 'Foundation', 'MobileCoreServices'
   s.dependency 'AWSRuntime'

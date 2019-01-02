@@ -18,8 +18,8 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AWSS3ForDNSPathStyle/Classes/**/*",
-  "public_header_files": "AWSS3ForDNSPathStyle/Classes/**/*.h",
+  "source_files": "AWSS3ForDNSPathStyle/Classes/**/**/*",
+  "public_header_files": "AWSS3ForDNSPathStyle/Classes/**/**/*.h",
   "requires_arc": false,
   "frameworks": [
     "Foundation",

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50BA0456FCE9123E8F584DCD /* Pods_AWSS3ForDNSPathStyle_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4B0C10A1C0FCF023A58CEB /* Pods_AWSS3ForDNSPathStyle_Example.framework */; };
+		0CB8738EB486F13036C5CD03 /* libPods-AWSS3ForDNSPathStyle_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2926D64D215F5711117922C /* libPods-AWSS3ForDNSPathStyle_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9920426B949F6B9FDB254D83 /* Pods_AWSS3ForDNSPathStyle_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA56A77B7B587E51BFC6FF7B /* Pods_AWSS3ForDNSPathStyle_Tests.framework */; };
+		E9201B1EC47DD5ABD43018DA /* libPods-AWSS3ForDNSPathStyle_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F11FE08EF6980C3A9DB523 /* libPods-AWSS3ForDNSPathStyle_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E4B0C10A1C0FCF023A58CEB /* Pods_AWSS3ForDNSPathStyle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSS3ForDNSPathStyle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30ED415B078F5A62AE18028F /* Pods-AWSS3ForDNSPathStyle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSS3ForDNSPathStyle_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSS3ForDNSPathStyle_Tests/Pods-AWSS3ForDNSPathStyle_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		47F11FE08EF6980C3A9DB523 /* libPods-AWSS3ForDNSPathStyle_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSS3ForDNSPathStyle_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB37D9A3141D21CAFE4B9D2 /* Pods-AWSS3ForDNSPathStyle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSS3ForDNSPathStyle_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSS3ForDNSPathStyle_Tests/Pods-AWSS3ForDNSPathStyle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AWSS3ForDNSPathStyle_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSS3ForDNSPathStyle_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2D0163E7D113E3289EE606D /* Pods-AWSS3ForDNSPathStyle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSS3ForDNSPathStyle_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSS3ForDNSPathStyle_Example/Pods-AWSS3ForDNSPathStyle_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B06EE5075A4A2B870933CA3B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BA56A77B7B587E51BFC6FF7B /* Pods_AWSS3ForDNSPathStyle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSS3ForDNSPathStyle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2926D64D215F5711117922C /* libPods-AWSS3ForDNSPathStyle_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSS3ForDNSPathStyle_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				50BA0456FCE9123E8F584DCD /* Pods_AWSS3ForDNSPathStyle_Example.framework in Frameworks */,
+				E9201B1EC47DD5ABD43018DA /* libPods-AWSS3ForDNSPathStyle_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				9920426B949F6B9FDB254D83 /* Pods_AWSS3ForDNSPathStyle_Tests.framework in Frameworks */,
+				0CB8738EB486F13036C5CD03 /* libPods-AWSS3ForDNSPathStyle_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				2E4B0C10A1C0FCF023A58CEB /* Pods_AWSS3ForDNSPathStyle_Example.framework */,
-				BA56A77B7B587E51BFC6FF7B /* Pods_AWSS3ForDNSPathStyle_Tests.framework */,
+				47F11FE08EF6980C3A9DB523 /* libPods-AWSS3ForDNSPathStyle_Example.a */,
+				D2926D64D215F5711117922C /* libPods-AWSS3ForDNSPathStyle_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				89B535C68FB9694E164CCEFE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -314,30 +313,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		89B535C68FB9694E164CCEFE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AWSS3ForDNSPathStyle_Example/Pods-AWSS3ForDNSPathStyle_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AWSRuntime/AWSRuntime.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSS3ForDNSPathStyle/AWSS3ForDNSPathStyle.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSRuntime.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3ForDNSPathStyle.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSS3ForDNSPathStyle_Example/Pods-AWSS3ForDNSPathStyle_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E4F3D494050959F8935FDF72 /* [CP] Check Pods Manifest.lock */ = {
