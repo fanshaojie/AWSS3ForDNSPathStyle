@@ -14,13 +14,7 @@
  */
 
 #import "AmazonS3Client.h"
-#ifdef AWS_MULTI_FRAMEWORK
-#import <AWSRuntime/AmazonWebServiceClient.h>
-#import <AWSRuntime/AmazonSDKUtil.h>
-#else
-#import "AmazonWebServiceClient.h"
-#import "AmazonSDKUtil.h"
-#endif
+
 #import "AmazonEndpoints.h"
 #import "S3LocationConstraintUnmarshaller.h"
 

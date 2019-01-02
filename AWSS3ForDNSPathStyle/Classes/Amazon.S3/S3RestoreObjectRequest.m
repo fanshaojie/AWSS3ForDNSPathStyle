@@ -14,11 +14,7 @@
  */
 
 #import "S3RestoreObjectRequest.h"
-#ifdef AWS_MULTI_FRAMEWORK
-#import <AWSRuntime/AmazonClientException.h>
-#else
-#import "AmazonClientException.h"
-#endif
+
 @implementation S3RestoreObjectRequest
 
 -(id)initWithKey:(NSString *)aKey withBucket:(NSString *)aBucket withDays:(int32_t)theDays

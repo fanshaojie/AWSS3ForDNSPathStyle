@@ -14,15 +14,6 @@
  */
 
 #import "S3Request.h"
-#ifdef AWS_MULTI_FRAMEWORK
-#import <AWSRuntime/AmazonSDKUtil.h>
-#import <AWSRuntime/AmazonAuthUtils.h>
-#import <AWSRuntime/AmazonServiceRequest.h>
-#else
-#import "AmazonSDKUtil.h"
-#import "AmazonAuthUtils.h"
-#import "AmazonServiceRequest.h"
-#endif
 #import "S3BucketNameUtilities.h"
 
 @implementation S3Request

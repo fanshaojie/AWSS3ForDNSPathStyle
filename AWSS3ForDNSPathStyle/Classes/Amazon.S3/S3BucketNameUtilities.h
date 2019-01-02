@@ -15,7 +15,11 @@
 
 #import <Foundation/Foundation.h>
 
-
+#ifdef AWS_MULTI_FRAMEWORK
+#import <AWSRuntime/AmazonClientException.h>
+#else
+#import "AmazonClientException.h"
+#endif
 
 /** Utilities for validating bucket names */
 @interface S3BucketNameUtilities:NSObject {

@@ -14,13 +14,6 @@
  */
 
 #import "S3ErrorResponseHandler.h"
-#ifdef AWS_MULTI_FRAMEWORK
-#import <AWSRuntime/AmazonServiceException.h>
-#import <AWSRuntime/AmazonUnmarshallerXMLParserDelegate.h>
-#else
-#import "AmazonServiceException.h"
-#import "AmazonUnmarshallerXMLParserDelegate.h"
-#endif
 #import "AmazonUnmarshallerXMLParserDelegate.h"
 
 @interface S3ErrorResponseHandler () {

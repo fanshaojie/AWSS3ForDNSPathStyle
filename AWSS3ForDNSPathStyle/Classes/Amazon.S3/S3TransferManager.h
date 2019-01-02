@@ -16,7 +16,11 @@
 #import <Foundation/Foundation.h>
 #import "AmazonS3Client.h"
 #import "S3TransferOperation.h"
-
+#ifdef AWS_MULTI_FRAMEWORK
+#import <AWSRuntime/AmazonServiceRequest.h>
+#else
+#import "AmazonServiceRequest.h"
+#endif
 
 /**
  * S3TransferManager is an easy-to-use, high level component that is designed to efficiently upload many large files to Amazon S3.

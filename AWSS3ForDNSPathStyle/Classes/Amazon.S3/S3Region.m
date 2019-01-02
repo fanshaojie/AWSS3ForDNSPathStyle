@@ -14,11 +14,6 @@
  */
 
 #import "S3Region.h"
-#ifdef AWS_MULTI_FRAMEWORK
-#import <AWSRuntime/AmazonClientException.h>
-#else
-#import "AmazonClientException.h"
-#endif
 #import "AmazonLogger.h"
 
 

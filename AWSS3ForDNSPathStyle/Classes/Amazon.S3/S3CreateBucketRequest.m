@@ -14,11 +14,7 @@
  */
 
 #import "S3CreateBucketRequest.h"
-#ifdef AWS_MULTI_FRAMEWORK
-#import <AWSRuntime/AmazonClientException.h>
-#else
-#import "AmazonClientException.h"
-#endif
+
 
 @implementation S3CreateBucketRequest
 

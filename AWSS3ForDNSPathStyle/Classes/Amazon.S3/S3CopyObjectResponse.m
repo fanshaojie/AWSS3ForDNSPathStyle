@@ -15,11 +15,7 @@
 
 #import "S3CopyObjectResponse.h"
 #import "S3CopyObjectResultUnmarshaller.h"
-#ifdef AWS_MULTI_FRAMEWORK
-#import <AWSRuntime/AmazonSDKUtil.h>
-#else
-#import "AmazonSDKUtil.h"
-#endif
+
 @implementation S3CopyObjectResponse
 
 @synthesize lastModified;
