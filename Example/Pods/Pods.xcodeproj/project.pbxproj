@@ -10,7 +10,6 @@
 		115D2AE6876D6ACD6D5BC368BFE52907 /* Pods-AWSS3ForDNSPathStyle_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2ADF1C58FEDF517D3A6B0E3E412FFC /* Pods-AWSS3ForDNSPathStyle_Tests-dummy.m */; };
 		159F740926B31F0BACB9450D89F6A990 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		544F335C045C90CF42F359D26911AF0F /* Pods-AWSS3ForDNSPathStyle_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3EC78439474B76EFE5717CE578DE212 /* Pods-AWSS3ForDNSPathStyle_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F94C3335726988780EC706CFFEB9849 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8578B34A8B91BE9D8F2221B5237C42D4 /* ReplaceMe.m */; };
 		95DF9F25DBCEA96CF9CE488231935E9A /* AWSS3ForDNSPathStyle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A88623D4C1F4E3C77F9F0C42EF30A8FD /* AWSS3ForDNSPathStyle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B3E547419C329A801C1CA826F31601A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		9BA8521E0D9603B80FB615713B2CAD05 /* AWSS3ForDNSPathStyle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B85553ECD019BC431BA534B1AFE8B9E6 /* AWSS3ForDNSPathStyle-dummy.m */; };
@@ -38,11 +37,11 @@
 
 /* Begin PBXFileReference section */
 		0A6740429B6206C3E8788004C10724AA /* AWSS3ForDNSPathStyle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AWSS3ForDNSPathStyle.modulemap; sourceTree = "<group>"; };
-		12906EB1BD8FB51D346DA1590A9CA2E8 /* Pods_AWSS3ForDNSPathStyle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AWSS3ForDNSPathStyle_Example.framework; path = "Pods-AWSS3ForDNSPathStyle_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12906EB1BD8FB51D346DA1590A9CA2E8 /* Pods_AWSS3ForDNSPathStyle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSS3ForDNSPathStyle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F45BD403209C3C3727C10169EDD0F1 /* Pods-AWSS3ForDNSPathStyle_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AWSS3ForDNSPathStyle_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		211C8AC5D8842249A219B12ED6C140DE /* Pods-AWSS3ForDNSPathStyle_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AWSS3ForDNSPathStyle_Example-resources.sh"; sourceTree = "<group>"; };
 		21DE83DB73DF6CD7BB23E665C3BCD4DF /* Pods-AWSS3ForDNSPathStyle_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AWSS3ForDNSPathStyle_Example-frameworks.sh"; sourceTree = "<group>"; };
-		38D28466412D4B1A75884688D810C758 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		38D28466412D4B1A75884688D810C758 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		437A7B0CB40DA4611471858D605441AE /* Pods-AWSS3ForDNSPathStyle_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AWSS3ForDNSPathStyle_Example-umbrella.h"; sourceTree = "<group>"; };
 		5344C5C436EE1AF3B5BBE841B1169FD4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		535A503D1C57D83901DD3BF38B598B16 /* Pods-AWSS3ForDNSPathStyle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AWSS3ForDNSPathStyle_Example.modulemap"; sourceTree = "<group>"; };
@@ -52,19 +51,18 @@
 		5F2ADF1C58FEDF517D3A6B0E3E412FFC /* Pods-AWSS3ForDNSPathStyle_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AWSS3ForDNSPathStyle_Tests-dummy.m"; sourceTree = "<group>"; };
 		627A6F0ED5EE2E8FF4F9138FFAEE0126 /* Pods-AWSS3ForDNSPathStyle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AWSS3ForDNSPathStyle_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6B7D53FA7F51B93008E94033B181FF78 /* Pods-AWSS3ForDNSPathStyle_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AWSS3ForDNSPathStyle_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		6F086798C6785D63F36C082843384527 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6F086798C6785D63F36C082843384527 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7953CFAF2AB8AD770DFAB4111916BB7B /* Pods-AWSS3ForDNSPathStyle_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AWSS3ForDNSPathStyle_Tests-resources.sh"; sourceTree = "<group>"; };
-		8578B34A8B91BE9D8F2221B5237C42D4 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = AWSS3ForDNSPathStyle/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		8F31BF22576B6B0F1D2B283CB0C29933 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A06645AF8EA5AD182CF6EB8C909824E4 /* Pods_AWSS3ForDNSPathStyle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AWSS3ForDNSPathStyle_Tests.framework; path = "Pods-AWSS3ForDNSPathStyle_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A06645AF8EA5AD182CF6EB8C909824E4 /* Pods_AWSS3ForDNSPathStyle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSS3ForDNSPathStyle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1131C9A303FC40F3A3377E1DA133495 /* Pods-AWSS3ForDNSPathStyle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AWSS3ForDNSPathStyle_Tests.modulemap"; sourceTree = "<group>"; };
 		A88623D4C1F4E3C77F9F0C42EF30A8FD /* AWSS3ForDNSPathStyle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWSS3ForDNSPathStyle-umbrella.h"; sourceTree = "<group>"; };
-		B0C700557C3091CC978A22244C44C845 /* AWSS3ForDNSPathStyle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AWSS3ForDNSPathStyle.framework; path = AWSS3ForDNSPathStyle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C700557C3091CC978A22244C44C845 /* AWSS3ForDNSPathStyle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWSS3ForDNSPathStyle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29BAB38AB1DEAEB8B30FE6390317F9D /* AWSS3ForDNSPathStyle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWSS3ForDNSPathStyle.xcconfig; sourceTree = "<group>"; };
 		B85553ECD019BC431BA534B1AFE8B9E6 /* AWSS3ForDNSPathStyle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AWSS3ForDNSPathStyle-dummy.m"; sourceTree = "<group>"; };
 		CAB23DF076AC369CB4B8F9031AEBDA5B /* Pods-AWSS3ForDNSPathStyle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AWSS3ForDNSPathStyle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D298CECCC44869A90D35B0C4DA4C2E4D /* AWSS3ForDNSPathStyle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AWSS3ForDNSPathStyle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D298CECCC44869A90D35B0C4DA4C2E4D /* AWSS3ForDNSPathStyle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AWSS3ForDNSPathStyle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D3B9BD8A8D669B82C6DDF1393FA80CDD /* Pods-AWSS3ForDNSPathStyle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AWSS3ForDNSPathStyle_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D3EC78439474B76EFE5717CE578DE212 /* Pods-AWSS3ForDNSPathStyle_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AWSS3ForDNSPathStyle_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -139,7 +137,6 @@
 		7AA1D963B7A48EB2FB8C4F669372A550 /* AWSS3ForDNSPathStyle */ = {
 			isa = PBXGroup;
 			children = (
-				8578B34A8B91BE9D8F2221B5237C42D4 /* ReplaceMe.m */,
 				986D57B4BF03C552C3602BE113E25C90 /* Pod */,
 				B98462891845D61C2335A1658334E1E2 /* Support Files */,
 			);
@@ -371,7 +368,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BA8521E0D9603B80FB615713B2CAD05 /* AWSS3ForDNSPathStyle-dummy.m in Sources */,
-				6F94C3335726988780EC706CFFEB9849 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,8 +625,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
