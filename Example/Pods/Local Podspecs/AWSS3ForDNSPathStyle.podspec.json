@@ -1,7 +1,7 @@
 {
   "name": "AWSS3ForDNSPathStyle",
   "version": "0.1.0",
-  "summary": "A short description of AWSS3ForDNSPathStyle.",
+  "summary": "DNS Path Style of AWSS3.",
   "description": "DNS Path Style of AWSS3.",
   "homepage": "https://github.com/fanshaojie/AWSS3ForDNSPathStyle",
   "license": {
@@ -18,9 +18,9 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AWSS3ForDNSPathStyle/Classes/**/**/*",
-  "public_header_files": "AWSS3ForDNSPathStyle/Classes/**/**/*.h",
   "requires_arc": false,
+  "source_files": "AWSS3ForDNSPathStyle/Classes/**/*",
+  "public_header_files": "AWSS3ForDNSPathStyle/Classes/**/*.h",
   "frameworks": [
     "Foundation",
     "MobileCoreServices"

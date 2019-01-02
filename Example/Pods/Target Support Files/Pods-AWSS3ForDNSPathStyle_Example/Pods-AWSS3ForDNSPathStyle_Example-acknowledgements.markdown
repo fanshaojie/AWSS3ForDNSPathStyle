@@ -26,7 +26,7 @@ THE SOFTWARE.
 
 ## AWSS3ForDNSPathStyle
 
-Copyright (c) 2019 502391721@qq.com <fanshaojie@unionread.com>
+Copyright (c) 2018 502391721@qq.com <fanshaojie@unionread.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
