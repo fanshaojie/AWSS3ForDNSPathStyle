@@ -1,0 +1,16 @@
+PODS:
+  - AWSS3ForDNSPathStyle (0.1.0)
+
+DEPENDENCIES:
+  - AWSS3ForDNSPathStyle (from `../`)
+
+EXTERNAL SOURCES:
+  AWSS3ForDNSPathStyle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AWSS3ForDNSPathStyle: e32b65347bdab999fa62fcfd1f1ecbc49ed06223
+
+PODFILE CHECKSUM: 0bb235360ba7da4d529710d64cc730a5c8afcc85
+
+COCOAPODS: 1.5.3
