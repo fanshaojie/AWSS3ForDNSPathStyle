@@ -474,6 +474,7 @@
 			baseConfigurationReference = A2D0163E7D113E3289EE606D /* Pods-AWSS3ForDNSPathStyle_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AWSS3ForDNSPathStyle/AWSS3ForDNSPathStyle-Prefix.pch";
 				INFOPLIST_FILE = "AWSS3ForDNSPathStyle/AWSS3ForDNSPathStyle-Info.plist";
@@ -490,6 +491,7 @@
 			baseConfigurationReference = 82CC3E83D9F60E11A38753BC /* Pods-AWSS3ForDNSPathStyle_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AWSS3ForDNSPathStyle/AWSS3ForDNSPathStyle-Prefix.pch";
 				INFOPLIST_FILE = "AWSS3ForDNSPathStyle/AWSS3ForDNSPathStyle-Info.plist";
