@@ -13,7 +13,7 @@ DNS Path Style of AWSS3.
   s.ios.deployment_target = '8.0'
 
   s.requires_arc = false
-  s.source_files = 'AWSS3ForDNSPathStyle/Classes/**/*.{h,m}'
+  s.source_files = 'AWSS3ForDNSPathStyle/Classes/**/*'
   s.public_header_files = 'AWSS3ForDNSPathStyle/Classes/**/*.h'
   s.frameworks = 'Foundation', 'MobileCoreServices'
   s.dependency 'AWSRuntime'
